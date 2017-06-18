@@ -1,11 +1,8 @@
-# While designed for web development, the PHP scripting language also provides general-purpose use.
+# ajax_a_pattern_led_tutorial
 # php [https://hub.docker.com/_/php/]
-
 FROM php:7.0-apache
+MAINTAINER Aiba Akihito
 
-MAINTAINER Aiba Akihito [https://github.com/code-of-design]
+LABEL version="1.0"
 
-# Create a Dockerfile in your PHP project
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-CMD ["php", "./usr/src/myapp"]
+VOLUME /var/www/html/
