@@ -12,6 +12,7 @@
         echo "Hello, PHP 7!";
       ?>
     </div>
+    <div id="ajax-response"></div>
     <script src="js/ajax.js"></script>
   </body>
 </html>
